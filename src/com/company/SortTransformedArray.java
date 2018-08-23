@@ -1,5 +1,12 @@
 package com.company;
 
+
+/**
+ * leetcode problem 360
+ * @author chen
+ * @Date 20180823
+ */
+
 public class SortTransformedArray {
     public int[] sortTransformedArray(int[] nums,int a,int b,int c){
         int n=nums.length;
