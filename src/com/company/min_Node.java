@@ -12,8 +12,12 @@ public class min_Node {
     public int node_Finder(TreeNode root,int target){
 
         if(root.val>target){
-            if(root.left!=null)return node_Finder(root.left,target);
-            if(root.right!=null)return node_Finder(root.right,target);
+            if(root.left!=null) {
+                return node_Finder(root.left,target);
+            }
+            if(root.right!=null) {
+                return node_Finder(root.right,target);
+            }
 
 
 

@@ -8,7 +8,9 @@ public class Codec {
     }
 
     public void helper(TreeNode root , StringBuilder a) {
-        if (root == null) return;
+        if (root == null) {
+            return;
+        }
         a.append((char)(root.val));
         helper(root.left , a);
         helper(root.right , a);
